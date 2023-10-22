@@ -5,8 +5,6 @@ import { Section } from './Section/Section';
 import { Notification } from './Notification/Notification';
 
 export class App extends Component {
-  // ?? 1. Вішати слухача на кожну кнопку чи на ul в FeedbackOptions ??
-  // ?? 2. перевірка на хоч один фідбек. перевірка на тотал не проходить бо він вираховкється в компоненті Statistics
   state = {
     good: 0,
     neutral: 0,
