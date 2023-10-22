@@ -32,7 +32,7 @@ export class App extends Component {
           color: '#010101',
         }}
       >
-        <Section title="Please leave Feedback ">
+        <Section title="Please leave Feedback">
           <FeedbackOptions
             options={Object.keys(this.state)}
             onLeaveFeedback={this.onLeaveFeedback}
